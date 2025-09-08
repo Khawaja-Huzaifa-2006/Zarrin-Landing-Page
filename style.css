@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px
+}
+
+.n-text {
+    display: flex;
+}
+
+.n-list {
+    display: flex;
+    gap: 50px;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 50px;
+}
+
+.n-list>ul>li {
+    list-style: none;
+}
+
+.n-list>ul>li>a {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+}
+.n-list >button >a{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.n-list >button{
+    height: 56px;
+    width: 180px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(124, 78, 228,1);
+}
+.n-list >img , .n-list>ul{
+    margin-top: 21px;
+}
+.n-list >img {
+    height: 22.05px;
+}
+.ai{
+    height: 796px;
+    background-color: rgba(124, 78, 228,1);
+    margin-top: 30px;
+}
+.ai-text {
+    width: 560px;
+    height: 96px;
+    position: relative;
+    bottom: 40px;
+}
+.ai-div {
+    display: flex;
+}
+.ai-div >.ai-image >img{
+    position: absolute;
+    top: 216px;
+    left: 650px;
+    z-index: 2;
+}
+.ai-div >.ai-text {
+    color: white;
+    margin-left: 80px;
+}
+.ai-div >.ai-text >h3 {
+    padding-bottom: 50px;
+}
+.ai-div >.ai-text >h1{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Raleway";
+    line-height: 86px;
+    padding-bottom: 20px;
+}
+.ai-div >.ai-text >p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Raleway";
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+.ai >.ai-div >.ai-text >button{
+    width: 170px;
+    height: 53px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+.ai >.ai-div >.ai-text >button >a{
+    color: rgba(55, 55, 55, 1);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-decoration: none;
+}
+.ai >.bg-2 {
+    position: absolute;
+    top: 650px;
+    left: 880px;
+}
+.vr{
+    height: 576px;
+    margin: 80px 0 0 60px;
+}
+.vr >.vr-text {
+    width: 920px;
+    position: relative;
+    left: 315px;
+    bottom: 15rem;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+}
+.vr >.vr-text >p {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    padding: 20px 0 0 20px;
+}
+.vr >.vr-text >h3{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: rgba(51, 51, 51, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.vr >.vr-text >h4 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(102, 102, 102,1);
+    margin-left: 20px;
+}
+.vr >.vr-text >button {
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgba(124, 78, 228,1);
+    border-radius: 8px;
+    margin: 20px 0 20px 20px;
+}
+.vr >.vr-text >button >a {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(124, 78, 228,1);
+    text-decoration: none;
+}
+.recent-post >.r-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 5rem 0 50px;
+}
+.recent-post >.r-text >h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: rgba(51, 51, 51, 1);
+}
+.recent-post >.r-text >button {
+    width: 147px;
+    height: 53px;
+    background-color: rgba(124, 78, 228,1);
+    border: none;
+    border-radius: 8px;
+}
+.recent-post >.r-text >button >a {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+.r-2{
+    display: flex;
+    margin-top: 5rem;
+}
+.r-2 >.r2-text{
+    padding: 50px 0 0 50px;
+}
+
+.r-2 >.r2-text >p{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.r-2 >.r2-text >h3{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: rgba(51, 51, 51, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.r-2 >.r2-text >h4 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(102, 102, 102,1);
+    margin-left: 20px;
+}
+.r-2 >.r2-text >button {
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgba(124, 78, 228,1);
+    border-radius: 8px;
+    margin: 50px 0 20px 20px;
+}
+.r-2 >.r2-text >button >a {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(124, 78, 228,1);
+    text-decoration: none;
+}
+.m-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.m-div >.d-1{
+    width: 400px;
+    height: 630px;
+}
+
+.m-div >.d-1 >p{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 20px;
+
+}
+
+.m-div >.d-1 >h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Raleway";
+    color: rgba(51, 51, 51, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.m-div >.d-1 >h4 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(102, 102, 102,1);
+}
+.m-div >.d-1 >a {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(124, 78, 228,1);
+}
